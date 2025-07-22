@@ -3,7 +3,8 @@ import pandas as pd
 import joblib
 
 # ✅ Load the trained model
-model = joblib.load(r"C:\Users\rgukt\Downloads\Telegram Desktop\best_model.pkl")
+model = joblib.load("best_model.pkl")
+
 
 st.set_page_config(
     page_title="Employee Salary Prediction",
